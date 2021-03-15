@@ -1,0 +1,241 @@
+:root{
+    --yellow: #fdcc52;
+    --face:#344e86;
+    --twiter:#0d95e8;
+    --gmail:#d73925;
+}
+.phone{
+    background: url(../images/iphone.png),center;
+    width: 305px;
+    height: 625px;
+    background-size: cover;
+
+
+
+    .screen-of-phone{
+        background: url(../images/phone-screen-jpeg.jpg);
+        width: 89%;
+        height: 479px;
+        transform: translate(20px, 72px);
+        background-size: cover;
+    }
+}
+.btn{
+    width: 225px;
+    height: 45px;
+    border-radius: 20px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    outline:none;
+    &:hover{
+        background: var(--yellow);
+    }
+}
+.icon{
+    width: 49%;
+    text-align: center;
+    h1{
+        font-size: 35px;
+    }
+
+    i{
+color: #e83e8c;
+    font-size: 20vh;
+    }
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.75rem 2rem;
+    background:transparent;
+    z-index: 1;
+    align-content: center;
+    height: 60px;
+    .center{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        height: 100%;
+        align-items: center;
+        .logo{
+            color: goldenrod;
+            font-size:25px;
+            font-weight:900;
+        }
+    }
+    .start{
+        width: 25%;
+
+    }
+    .nav{
+        width: 35%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    li{
+      color: black;
+      font-size:18px;
+      font-weight: 500; 
+      list-style: none; 
+      cursor: not-allowed;  
+    }
+}
+.white{
+    background-color:white
+}
+.start{
+    height: 900px;
+    width: 100%;
+    .aom{
+      background:  url(../images/aom.png),linear-gradient(to left,#7b4397,#dc2430);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .left-text{
+            width: 35%;
+            height: 435px;
+            transform: translateY(0) translateX(100px);
+            color: white;
+            font-size: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            h1{
+                margin: 0;
+            }
+       
+        }
+        
+
+    }
+}
+.download{
+    background: #fdcc52;
+    height: 642px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+h1{
+    font-size: 70px;
+    color: black;
+    font-weight: 100;
+    text-align: center;
+}
+p{
+    font-size: 25px;
+    margin:20px 0;
+
+}
+    .download-apps :nth-child(1){
+            background: url(../images/app.svg) center no-repeat;
+            background-size: cover;
+    }
+    .download-apps :nth-child(2){
+        background: url(../images/google-play.svg)center  no-repeat;
+    background-size: cover;
+        
+    }
+    .download-apps img{
+        width: 220px;
+        height: 60px;
+        outline: none;
+        margin: 0 4px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+        
+    }
+}
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 1000px;
+    width: 100%;
+    span{     
+    height: 2px;
+    background: #b6b2b2;
+    width: 140px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+        color: #b6b2b2;
+    }
+    .features-foot{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .features-icons{
+            width: 55%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        };
+    }
+}
+.contact{
+    height: 1000px;
+    width: 100%;
+    .head-picture{
+        width: 100%;
+        height: 700px;
+        background: url(../images/bg-with-phone.jpeg)center no-repeat;
+        background-size:cover;
+        div{
+            width: 40%;
+            transform: translate(10%, 80%);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 278px;
+        }
+        h1{
+            font-size: 70px;
+            color: white;
+            font-weight: 100;
+        }
+    }
+    .foot-apps{
+        background: var(--yellow);
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        div{
+            font-size: 90px;
+            display: flex;
+            justify-content: space-around;
+            width: 22%;
+            cursor: pointer;
+        }
+    }
+}
+.footer{
+    width: 100%;
+    background: black;
+    color: grey;
+    text-align: center;
+    height: 100px;
+    padding-top: 20px;
+}
